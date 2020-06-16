@@ -1,12 +1,12 @@
 ﻿{
     "name": "Youtube Ad Remover",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "manifest_version": 2,
     "description": "This removes ad banner and ad movie in Youtube.",
 
 	"content_scripts": [
 		{
-			 "matches": ["https://www.youtube.com/*"],
+			 "matches": ["https://www.youtube.com/watch*"],
 			 "js": ["injected.js"]
 		}
 	]
